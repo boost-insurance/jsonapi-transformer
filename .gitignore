@@ -1,0 +1,72 @@
+### Project Specific
+
+# Results of pipenv install -e .
+Pipfile
+Pipfile.lock
+pip-wheel-metadata/
+
+### Global
+
+# CI
+codeship.aes
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Dist
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installers
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile
+Pipfile.lock
+tmp
+
+# Testing
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+pacts
+
+# Environment vars
+env
+*.env
+
+# Docs
+docs/_build/
+
+# Editors
+.idea
+.vscode
+
+# OS
+.DS_Store

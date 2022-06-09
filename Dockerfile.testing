@@ -1,0 +1,13 @@
+ARG PYTHON_VERSION=3.9
+FROM python:${PYTHON_VERSION}-slim-bullseye
+
+WORKDIR /app/src
+WORKDIR /app
+
+RUN python -m pip install --upgrade pip
+
+COPY pyproject.toml ./
+COPY setup.cfg ./
+
+RUN pip install -e .[tests]
+COPY . .
